@@ -11,6 +11,14 @@ It aims to bridge the gap between MapReduce-like systems and shared-nothing para
 The current list of streaming connectors can be found here:
 [https://github.com/apache/flink/tree/master/flink-streaming-connectors](https://github.com/apache/flink/tree/master/flink-streaming-connectors)
 
+## Serverless Framework
+The framework uses new event-driven compute services, like AWS Lambda, Google CloudFunctions, and more. It's a command-line tool, 
+providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. 
+It's also completely extensible via plugins.
+
+- **[IN-PROGRESS]** Azure support is actively being worked on based on a first [PR](https://github.com/serverless/serverless/pull/1426) 
+by the Microsoft Open Source Team. Current tracking item is here: [https://github.com/serverless/serverless/issues/1493](https://github.com/serverless/serverless/issues/1493)
+
 ## Terraform
 [Terraform](https://www.terraform.io/) provides a common configuration to launch infrastructure — from physical and virtual servers to email and DNS providers. 
 Once launched, Terraform safely and efficiently changes infrastructure as the configuration is evolved.
