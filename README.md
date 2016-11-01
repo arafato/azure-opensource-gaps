@@ -15,7 +15,7 @@ The current list of streaming connectors can be found here:
 [Terraform](https://www.terraform.io/) provides a common configuration to launch infrastructure — from physical and virtual servers to email and DNS providers. 
 Once launched, Terraform safely and efficiently changes infrastructure as the configuration is evolved.
 
-- **[IN-PROGRESS]** Terraform lacks support of support for different Azure Environments such as GermanCloud, GovCloud, ChinaCloud.
+- **[CLOSED]** Terraform lacks support for different Azure Environments such as GermanCloud, GovCloud, ChinaCloud.
 PR at [https://github.com/hashicorp/terraform/issues/9400](https://github.com/hashicorp/terraform/issues/9400)
 
 ## SimpleKV
