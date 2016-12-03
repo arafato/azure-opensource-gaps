@@ -12,7 +12,7 @@ The current list of streaming connectors can be found here:
 
 ## Cross-Platform Azure Storage Emulator
 Currently, there only exists a Windows-only Azure Storage Emulator.
-- **[IN-PROGRESS]** [Azurit](https://github.com/arafato/azurite) is a lightweight and cross-platform server clone
+- **[IN-PROGRESS]** [Azurite](https://github.com/arafato/azurite) is a lightweight and cross-platform server clone
 of Azure Blob Storage that simulates most of the commands supported by it with minimal dependencies.
 
 ## Serverless Framework
