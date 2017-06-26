@@ -15,13 +15,18 @@ Currently, there only exists a Windows-only Azure Storage Emulator.
 - **[IN-PROGRESS]** [Azurite](https://github.com/arafato/azurite) is a lightweight and cross-platform server clone
 of Azure Blob Storage that simulates most of the commands supported by it with minimal dependencies.
 
-## Serverless Framework
-The framework uses new event-driven compute services, like AWS Lambda, Google CloudFunctions, and more. It's a command-line tool, 
+## Serverless
+### Serverless Framework
+The framework uses new event-driven compute services, like AWS Lambda, Google CloudFunctions, and more. It's a command-line tool,
 providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. 
 It's also completely extensible via plugins.
 
 - **[IN-PROGRESS]** Azure support is actively being worked on based on a first [PR](https://github.com/serverless/serverless/pull/1426) 
 by the Microsoft Open Source Team. Current tracking item is here: [https://github.com/serverless/serverless/issues/1493](https://github.com/serverless/serverless/issues/1493)
+
+### Kong
+Kong is an open source API Gateway based on LUA using NGINX, Cassandra, and Postgresql.
+- **[OPEN]** Support for Azure Functions: [https://github.com/Mashape/kong/issues/2652](https://github.com/Mashape/kong/issues/2652)
 
 ## Terraform
 [Terraform](https://www.terraform.io/) provides a common configuration to launch infrastructure — from physical and virtual servers to email and DNS providers. 
